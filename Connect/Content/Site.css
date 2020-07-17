@@ -1,0 +1,129 @@
+﻿body {
+    
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.slidecontainer {
+    width: 100%;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    z-index:10;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+    .slider:hover {
+        opacity: 1;
+    }
+
+    .slider::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        appearance: none;
+        width: 57px;
+        height: 30px;
+        border: 0;
+        background: url('/Content/slider.png');
+        cursor: pointer;
+    }
+
+    .slider::-moz-range-thumb {
+        width: 57px;
+        height: 30px;
+        border: 0;
+        background: url('/Content/slider.png');
+        cursor: pointer;
+    }
+
+.customMousePointer {
+    cursor: url("data:image/svg+xml,%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='128px' height='128px' fill='rgb(255, 255, 255)' fill-opacity='.702' viewBox='0 0 512 512' style='enable-background:new 0 0 512 512;' xml:space='preserve'%3E %3Cpath d='M69.762 52.383c1.035 1.004 1.27 2.16.703 3.465-.57 1.336-1.559 2.007-2.965 2.007H48.316L58.41 81.762c.332.84.332 1.66 0 2.46a3.255 3.255 0 0 1-1.707 1.758l-8.89 3.77c-.836.332-1.657.332-2.461 0-.805-.332-1.391-.906-1.758-1.707L34 65.34 18.332 81.012c-.633.633-1.39.953-2.262.953-.402 0-.8-.082-1.203-.25-1.34-.57-2.012-1.559-2.012-2.965V3.215c0-1.406.672-2.39 2.012-2.965.403-.168.801-.25 1.203-.25.907 0 1.66.32 2.262.953zm0 0'/%3E %3C/svg%3E"), auto !important;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('/fonts/icomoon.eot?yx89wb');
+    src: url('/fonts/icomoon.eot?yx89wb#iefix') format('embedded-opentype'), url('/fonts/icomoon.ttf?yx89wb') format('truetype'), url('/fonts/icomoon.woff?yx89wb') format('woff'), url('/fonts/icomoon.svg?yx89wb#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-sco-connection .path1:before {
+    content: "\e906";
+    color: rgb(0, 0, 0);
+}
+
+.icon-sco-connection .path2:before {
+    content: "\e907";
+    margin-left: -0.6474609375em;
+    color: rgb(0, 0, 0);
+}
+
+.icon-sco-connection .path3:before {
+    content: "\e908";
+    margin-left: -0.6474609375em;
+    color: rgb(251, 74, 94);
+}
+
+.icon-sco-rotate-right:before {
+    content: "\e904";
+}
+
+.icon-sco-rotate-left:before {
+    content: "\e905";
+}
+
+.icon-sco-file-plus .path1:before {
+    content: "\e900";
+    color: rgb(34, 34, 34);
+}
+
+.icon-sco-file-plus .path2:before {
+    content: "\e901";
+    margin-left: -1em;
+    color: rgb(41, 128, 185);
+}
+
+.icon-sco-file-plus .path3:before {
+    content: "\e902";
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+}
+
+.icon-sco-file-plus .path4:before {
+    content: "\e903";
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+}

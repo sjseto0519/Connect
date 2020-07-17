@@ -1,0 +1,1 @@
+browserify bindings.js -o bind-scripts.js

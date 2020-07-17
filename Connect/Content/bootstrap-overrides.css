@@ -1,0 +1,25 @@
+﻿
+    .rotateLeftButtonIcon .tooltip {
+        z-index:20000;
+        top: 7px !important;
+    }
+
+    .rotateRightButtonIcon .tooltip {
+        z-index: 20000;
+        top: 7px !important;
+    }
+
+.leftNavIcon7 .tooltip {
+    z-index: 20000;
+    left: 7px !important;
+}
+
+.leftNavIcon5 .tooltip {
+    z-index: 20000;
+    left: 5px !important;
+}
+
+.leftNavIcon3 .tooltip {
+    z-index: 20000;
+    left: 3px !important;
+}

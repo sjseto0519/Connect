@@ -1,0 +1,1 @@
+browserify dependencies.js -o dep-scripts.js

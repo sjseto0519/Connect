@@ -1,0 +1,1 @@
+browserify -t brfs widget-bootstrapper.js > widget-scripts.js

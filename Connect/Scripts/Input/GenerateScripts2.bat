@@ -1,0 +1,1 @@
+browserify extensions.js -o ext-scripts.js

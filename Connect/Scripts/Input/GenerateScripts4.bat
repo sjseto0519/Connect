@@ -1,0 +1,1 @@
+browserify controllers.js -o controller-scripts.js

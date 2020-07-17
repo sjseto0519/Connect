@@ -1,0 +1,1 @@
+browserify -t brfs component-bootstrapper.js > component-scripts.js
