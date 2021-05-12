@@ -8,7 +8,7 @@
     "brfs": "^1.4.3",
     "browserify": "^9.0.3",
     "bundle-collapser": "^1.2.1",
-    "codemirror": "^5.36.0",
+    "codemirror": "^5.58.2",
     "codemirror-minified": "^5.28.0",
     "convert-source-map": "^1.1.0",
     "del": "^1.1.1",
