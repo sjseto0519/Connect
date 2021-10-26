@@ -28,7 +28,7 @@
     "gutil": "^1.6.4",
     "handlebars": "^3.0.0",
     "jquery.maskedinput": "^1.4.1",
-    "jquery-ui": "^1.12.1",
+    "jquery-ui": "^1.13.0",
     "knockout": "3.4.2",
     "knockout-mapping": "^2.6.0",
     "lodash": "^3.3.1",
